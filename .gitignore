@@ -1,0 +1,19 @@
+
+# Symfony directories
+vendor/*
+*/logs/*
+*/cache/*
+web/uploads/*
+web/bundles/*
+
+# Configuration files
+app/config/parameters.ini
+app/config/parameters.yml
+
+# htaccess
+web/.htaccess
+web/.htpasswd
+web/data
+web/app_dev.php
+
+/nbproject
