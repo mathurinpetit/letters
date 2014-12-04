@@ -1,0 +1,259 @@
+/* 
+    Document   : front
+    Created on : 23 mars 2014, 15:04:46
+    Author     : mathurin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.main{
+    padding-top: 100px;
+}
+
+.navbar-inverse {
+    background-color: #000000;
+    border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+
+.nav-logo{
+    padding: 0 30px;
+    margin: 0; 
+    top: -5px;
+}
+
+.nav-logo img{
+    width: 130px;
+    height: 70px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+.connexion-form{
+    padding: 0 30px;
+}
+
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 30px;    
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 7px 8px;
+    pointer-events: none;
+}
+
+.navbar-fixed-top {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+.post{
+    padding: 10px;
+}
+
+.post_text{
+    padding-top: 25px;
+}
+
+.post_user_avatar{
+    width: 120px;
+    height: 120px;
+}
+
+.post_user_description{
+    font-weight: bold;
+}
+
+
+.event_left
+{
+    margin-left: 20px;
+}
+
+.event_map_show, .event_map_show_multiple
+{
+    height: 280px;
+    width: 400px;
+}
+
+.event_map_choose{
+    height:250px;
+    margin-right: 15px; 
+    float: right;
+}
+
+.event_create_submit{
+    margin-top: 20px;
+}
+
+.event_panel_button{
+    margin-bottom: 20px;
+}
+
+.event_passed_link{
+    height: 70px;
+    vertical-align: bottom;
+    text-decoration: underline;
+    padding-right: 40px;
+    padding-top: 35px;
+}
+
+
+.panel-heading a:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";    
+    float: right; 
+    color: grey; 
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.panel-heading a.collapsed:after {
+    content: "\e080";
+}
+
+.picture-view-modal, .carousel, .picture-view-modal-content{
+    height: 800px;
+}
+
+.pictures-show {
+    padding-top: 40px;
+}
+
+.carousel-caption{
+    color: #000;
+    position: initial;
+}
+
+.carousel-indicators li {
+    background-color: rgb(204, 0, 0);
+    border: 1px solid #FF0000;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    width: 10px;
+}
+
+
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: darkred -moz-use-text-color #FFFFFF;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin: 18px 0;
+}
+
+.rotate1    {  
+    -webkit-transform:rotate(10deg);
+    -moz-transform:rotate(10deg);
+    -o-transform:rotate(10deg);
+    /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); */
+    -ms-transform:rotate(10deg);
+
+}
+
+.rotate3   {  
+    -webkit-transform:rotate(20deg);
+    -moz-transform:rotate(20deg);
+    -o-transform:rotate(20deg);
+    /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); */
+    -ms-transform:rotate(20deg);
+
+}
+
+.rotate5  {  
+    -webkit-transform:rotate(30deg);
+    -moz-transform:rotate(30deg);
+    -o-transform:rotate(30deg);
+    /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); */
+    -ms-transform:rotate(30deg);
+
+}
+
+.rotate7  {  
+    -webkit-transform:rotate(40deg);
+    -moz-transform:rotate(40deg);
+    -o-transform:rotate(40deg);
+    /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); */
+    -ms-transform:rotate(40deg);
+
+}
+
+.rotate2    {  
+    -webkit-transform:rotate(-10deg);
+    -moz-transform:rotate(-10deg);
+    -o-transform:rotate(-10deg);
+    /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); */
+    -ms-transform:rotate(-10deg);
+
+}
+
+.rotate4    {  
+    -webkit-transform:rotate(-20deg);
+    -moz-transform:rotate(-20deg);
+    -o-transform:rotate(-20deg);
+    /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); */
+    -ms-transform:rotate(-20deg);
+
+}
+
+.rotate6    {  
+    -webkit-transform:rotate(-30deg);
+    -moz-transform:rotate(-30deg);
+    -o-transform:rotate(-30deg);
+    /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); */
+    -ms-transform:rotate(-30deg);
+
+}
+
+.rotate8  {  
+    -webkit-transform:rotate(-46deg);
+    -moz-transform:rotate(-47deg);
+    -o-transform:rotate(-42deg);
+    /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); */
+    -ms-transform:rotate(-40deg);
+
+}
+
+.event-panel{
+    margin-bottom: 40px !important;
+}
+
+.event-panel a {
+    color: black;
+}
+
+.agenda-avatar-not-in-event img {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.agenda-avatar-not-go-to-event img {
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.agenda-avatar-not-go-to-event-overlay{
+    position:relative; 
+    top:-100px; 
+    height:82px; 
+    background: url(../images/diagonals.gif) fixed; 
+}
+
+.button_go_not_go{
+    padding-bottom: 15px;
+}

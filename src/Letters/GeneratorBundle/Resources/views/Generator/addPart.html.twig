@@ -1,0 +1,24 @@
+Nouvelle partie :<br>    
+
+<table cellspacing="2px" cellpadding="2px;" rules="all" style="border:solid 1px black;">
+    <tbody>
+        <tr>
+            <td>ID</td>
+            <td>Type Lettre</td>
+            <td>Type Partie</td>
+            <td>Nombre Arguments</td>
+            <td>Texte</td>
+        </tr>
+        {% for pl in pls %}
+    <tr>
+            <td>{{ pl.id }}</td>
+            <td>{{ pl.getTypeLetter }}</td>
+            <td>{{ pl.getTypePart }}</td>
+            <td>{{ pl.getNbAgrument }}</td>
+            <td>{{ pl.getPartText }}</td>
+    </tr> 
+        {% endfor %}
+    </tbody>
+</table>
+Veuillez ajouter une partie : 
+{{ form(form) }}

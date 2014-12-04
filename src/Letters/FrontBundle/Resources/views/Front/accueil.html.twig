@@ -1,0 +1,22 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}Letters{% endblock %}
+
+{% block content %}
+    <div class="main">
+        <h2>Créer une lettre d'amour</h2>
+        <div role="tabpanel">
+            <ul class="nav nav-tabs" role="tablist">
+            {% for typeLetter in typeLetters %}
+                <li role="presentation" class="{%if (selectedLetter.id == typeLetter.id)%}active{%endif%}"><a href="{{ path('panel_type_letter', {'typeLetter' : typeLetter.alias}) }}" aria-controls="{{ typeLetter.id }}" role="tab" >{{ typeLetter.title }}</a></li>
+            {% endfor %}
+            </ul>
+            <div class="tab-content">
+                {% for typeLetter in typeLetters %}
+                     <div role="tabpanel" class="tab-pane {%if (selectedLetter.id == typeLetter.id)%}active{%endif%}" id="{{ selectedLetter.id }}">...</div>
+           {% endfor %}
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

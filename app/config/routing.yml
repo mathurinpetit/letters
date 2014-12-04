@@ -1,0 +1,13 @@
+letters:
+    pattern:  /
+    defaults: { _controller: LettersFrontBundle:Front:accueil }
+    requirements:
+        _method:  GET
+
+letters_front:
+    resource: "@LettersFrontBundle/Controller/"
+    type:     annotation
+    
+generator:
+    resource: "@LettersGeneratorBundle/Controller/"
+    type:     annotation

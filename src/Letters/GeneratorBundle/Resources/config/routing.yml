@@ -1,0 +1,9 @@
+_generate:
+    resource: "@GeneratorBundle/Controller/GeneratorController.php"
+    type:     annotation
+    prefix:   /generateLetter
+    
+_addPartLetter:
+    resource: "@GeneratorBundle/Controller/GeneratorController.php"
+    type:     annotation
+    prefix:   /addPart
